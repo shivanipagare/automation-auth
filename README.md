@@ -5,7 +5,7 @@ Create a .env.local file in the root directory and add the following variables:
 
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-NEXT_PUBLIC_N8N_WEBHOOK=https://shivani31p.app.n8n.cloud/webhook/new-signup
+NEXT_PUBLIC_N8N_WEBHOOK=webhook_url
 
 
 NEXT_PUBLIC_SUPABASE_URL: Your Supabase project URL
