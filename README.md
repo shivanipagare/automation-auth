@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Create .env.local file
 
+Create a .env.local file in the root directory and add the following variables:
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+NEXT_PUBLIC_N8N_WEBHOOK=https://shivani31p.app.n8n.cloud/webhook/new-signup
+
+
+NEXT_PUBLIC_SUPABASE_URL: Your Supabase project URL
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY: Your Supabase anon/public API key
+
+NEXT_PUBLIC_N8N_WEBHOOK: Your n8n webhook URL
 ## Getting Started
 
 First, run the development server:
