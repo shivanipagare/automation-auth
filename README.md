@@ -2,13 +2,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Create .env.local file
 
 Create a .env.local file in the root directory and add the following variables:
-
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-NEXT_PUBLIC_N8N_WEBHOOK=webhook_url
-
-
 NEXT_PUBLIC_SUPABASE_URL: Your Supabase project URL
 
 NEXT_PUBLIC_SUPABASE_ANON_KEY: Your Supabase anon/public API key
